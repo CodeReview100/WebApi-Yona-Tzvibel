@@ -1,0 +1,30 @@
+﻿body {
+    background-color:black;
+
+}
+h1{
+    font-size:60px;
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:burlywood;
+        
+}
+label {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    color: burlywood;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+    color: burlywood;
+}
+div{
+    text-align:center;
+
+}
+button{
+    font-size:20px;
+   
+}
