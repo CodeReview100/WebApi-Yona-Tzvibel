@@ -4,6 +4,7 @@ const jsonUser = JSON.parse(user1)
 const loadPage = () => {
     const jsonUser = JSON.parse(user1)
     welcome.innerHTML = `hello to ${jsonUser.userName}`
+    //rename variable userName3 (clean code)
     const userName3 = document.getElementById("userName3")
     userName3.value = jsonUser.userName
     const password3 = document.getElementById("password3")
@@ -36,8 +37,10 @@ const update = async () => {
         body: JSON.stringify(User)
 
     });
-
+    //Check response status!!
+    //if status==200 - alert a suitable message user's details updated. if status== 400 etc alert a suitable message
     const dataPost = await res.json();
+    //Save the updated data in the session storage!!!
 
 
 }
